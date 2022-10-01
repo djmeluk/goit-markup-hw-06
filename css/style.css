@@ -297,6 +297,7 @@ ul {
   bottom: 0;
   background-color: #2f303acc;
   color: var(--primary-background-color);
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -550,7 +551,7 @@ footer .footer-box {
 }
 
 .footer .mailing-form {
-  margin-left: 93px;
+  margin-left: auto;
 }
 
 .footer .form-box {

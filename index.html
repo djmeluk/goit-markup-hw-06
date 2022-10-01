@@ -437,6 +437,7 @@
             </ul>
           </address>
         </div>
+
         <!-- Приєднуйтесь -->
         <div class="social-box">
           <p class="footer-title">Приєднуйтесь</p>
@@ -471,6 +472,7 @@
             </li>
           </ul>
         </div>
+
         <!-- Розсилка -->
         <form class="mailing-form">
           <p class="mailing-title">Підпишіться на розсилку</p>
@@ -483,9 +485,10 @@
                 placeholder="E-mail"
                 required
             /></label>
-            <button class="button primary" type="submit">Підписатися
+            <button class="button primary" type="submit">
+              Підписатися
               <svg width="24" height="24" class="icon-mailing">
-              <use href="./images/icons.svg#icon-send"></use>
+                <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>
           </div>
@@ -548,19 +551,23 @@
             placeholder="Введіть текст"
           ></textarea>
 
-          <div class="field-agree">
-            <input
-              type="checkbox"
-              id="agree"
-              name="agree"
-              class="chek"
-              required
-            />
-            <label for="agree" class="label-agree"
+          <label class="field-agree">
+            <input type="checkbox" name="agree" class="checkbox" />
+            <svg width="16" height="15" class="check-icon">
+              <use
+                href="./images/icons.svg#icon-vector-box"
+                class="check-border"
+              ></use>
+              <use
+                href="./images/icons.svg#icon-icon-check"
+                class="check"
+              ></use>
+            </svg>
+            <span class="agree-text"
               >Погоджуюся з розсилкою та приймаю
-              <a href="" class="link-agree">Умови договору</a></label
+              <a href="" class="link-agree">Умови договору</a></span
             >
-          </div>
+          </label>
           <button type="submit" class="button primary">Відправити</button>
         </form>
         <button class="btn-close" data-modal-close>
